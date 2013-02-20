@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using GameOfLifeCoreLogic.Core;
 using System.Collections.Generic;
+using GameOfLifeCoreLogic;
 
 namespace GameOfLifeTestProject
 {
