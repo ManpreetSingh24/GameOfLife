@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameOfLifeUILogic.Extensions.GridExtensions">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAACAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Extensions\GridExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOfLifeUILogic.GameOfLife" BaseTypeListCollapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAAAAQARAAAAAAIAFAAAOgAAAAAAAAEAAACAE=</HashCode>
+      <FileName>GameOfLife.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.GridRowColumnParser" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAgAAAAgAAAAAAAAIAAAAAAACAAAA=</HashCode>
+      <FileName>GridRowColumnParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="GameOfLifeUILogic.Core.IGameOfLife">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IGameOfLife.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.IGridRowColumnParser&lt;TG&gt;">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IGridRowColumnParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

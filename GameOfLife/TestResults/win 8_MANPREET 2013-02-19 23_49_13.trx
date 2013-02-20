@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="62765b8f-5e63-464b-bb59-2a3652a55115" name="win 8@MANPREET 2013-02-19 23:49:13" runUser="MANPREET\win 8" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="44b73a73-a24d-45e2-b7cf-2fa08e5a3545">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="win 8_MANPREET 2013-02-19 23_49_13">
+      <DeploymentItem filename="G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\bin\Debug\GameOfLifeUILogic.dll" />
+      <DeploymentItem filename="G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeCoreLogic\bin\Debug\GameOfLifeCoreLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-19T23:49:13.2478896+05:30" queuing="2013-02-19T23:49:14.3568954+05:30" start="2013-02-19T23:49:14.4632426+05:30" finish="2013-02-19T23:49:15.0151066+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ToConsoleFormattedStringTest" storage="g:\study\mckinsey\project\gameoflife\gameoflife\gameoflifetestproject\bin\debug\gameoflifetestproject.dll" id="8804c77b-6658-41ef-ab9a-2ea5147fb6c8">
+      <Execution id="63c2c0e0-3493-46c1-9406-86a729c7c177" />
+      <TestMethod codeBase="G:/Study/Mckinsey/Project/GameOfLife/GameOfLife/GameOfLifeTestProject/bin/Debug/GameOfLifeTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLifeTestProject.GridExtensionsTest, GameOfLifeTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToConsoleFormattedStringTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8804c77b-6658-41ef-ab9a-2ea5147fb6c8" executionId="63c2c0e0-3493-46c1-9406-86a729c7c177" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="63c2c0e0-3493-46c1-9406-86a729c7c177" testId="8804c77b-6658-41ef-ab9a-2ea5147fb6c8" testName="ToConsoleFormattedStringTest" computerName="MANPREET" duration="00:00:00.1236298" startTime="2013-02-19T23:49:14.4912157+05:30" endTime="2013-02-19T23:49:14.9585480+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63c2c0e0-3493-46c1-9406-86a729c7c177">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method GameOfLifeTestProject.GridExtensionsTest.ToConsoleFormattedStringTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at GameOfLifeUILogic.Extensions.GridExtensions.ToConsoleFormattedString(IGrid`1 grid) in G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\Extensions\GridExtensions.cs:line 21
+   at GameOfLifeTestProject.GridExtensionsTest.ToConsoleFormattedStringTest() in G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeTestProject\GridExtensionsTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

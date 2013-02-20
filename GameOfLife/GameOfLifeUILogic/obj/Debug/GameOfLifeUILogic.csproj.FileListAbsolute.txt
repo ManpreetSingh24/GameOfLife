@@ -1,0 +1,7 @@
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\bin\Debug\GameOfLifeUILogic.dll
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\bin\Debug\GameOfLifeUILogic.pdb
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\obj\Debug\GameOfLifeUILogic.dll
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\obj\Debug\GameOfLifeUILogic.pdb
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\obj\Debug\GameOfLifeUILogic.csprojResolveAssemblyReference.cache
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\bin\Debug\GameOfLifeCoreLogic.dll
+G:\Study\Mckinsey\Project\GameOfLife\GameOfLife\GameOfLifeUILogic\bin\Debug\GameOfLifeCoreLogic.pdb

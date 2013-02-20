@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameOfLifeCoreLogic.Cell" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Cells.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.DeadCellRule">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeadCellRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.Evolution" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Evolution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.GameRules" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameRules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.Grid" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIACIYAgIAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.LiveCellRule">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LiveCellRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.NeighbourCalculator" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgIgAAEgAAAAAAAIAAAAAIAAAAAAgoABABAAAAAAA=</HashCode>
+      <FileName>NeighbourCalculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.Core.CellRule&lt;TC, TG&gt;">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAQQAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\CellRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameOfLifeCoreLogic.Extensions.GridExtensions">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Extensions\GridExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GameOfLifeCoreLogic.Core.ICell">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Core\ICell.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.ICellRule&lt;TC, TG&gt;">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ICellRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.IEvolution&lt;TC, TG&gt;">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IEvolution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.IGameRules&lt;TC, TG, TCR&gt;">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Core\IGameRules.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.IGrid&lt;TA&gt;">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAYAgIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IGrid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameOfLifeCoreLogic.Core.INeighbourCalculator&lt;TC, TG&gt;">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Core\INeighbourCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
